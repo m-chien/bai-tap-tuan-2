@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class bai2 {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Nhap ten: ");
+        String ten = scanner.nextLine();
+
+        System.out.print("Nhap tuoi: ");
+        int tuoi = scanner.nextInt();
+
+        System.out.print("Nhap chieu cao(m): ");
+        double chieuCao = scanner.nextDouble();
+
+        System.out.print("Ban co thich lap trinh khong? (true/false): ");
+        boolean thichLapTrinh = scanner.nextBoolean();
+
+        System.out.println("Ten: " + ten);
+        System.out.println("Tuoi: " + tuoi);
+        System.out.println("Chieu cao: " + chieuCao + " met");
+        System.out.println("Co thich lap trinh khong: " + thichLapTrinh);
+    }
+}
