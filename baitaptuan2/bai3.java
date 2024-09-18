@@ -11,8 +11,9 @@ public class bai3 {
         b= sc.nextInt();
         System.out.println("a+b= "+(a+b));
         System.out.println("a-b= "+(a-b));
-        System.err.println("a*b= "+(a*b));
+        System.out.println("a*b= "+(a*b));
         if(b==0) System.out.println("khong the tinh");
-        else System.out.println("a%b= "+(a%b));
+        else  System.out.println("a/b= "+(a/b));
+        System.out.println("a%b= "+(a%b));
     }
 }
